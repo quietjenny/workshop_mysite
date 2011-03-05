@@ -61,7 +61,7 @@ MEDIA_URL = '/uploaded_files/'
 ADMIN_MEDIA_PREFIX = '/media/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'b_ione@zfq+odp1_-go*g6^i86jyzu(6*#3^kz37&+oso^4imo'
+SECRET_KEY = 'tschaaaaab_ione@zfq+odp1_-123lkjo87435h&*^kz37&+oso^4imobooboopbedoop'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -96,4 +96,5 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
+    'polls',
 )
